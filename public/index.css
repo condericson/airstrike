@@ -1,0 +1,52 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+/*Game window*/
+.game {
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.playerSide, .opponentSide {
+	display: inline-block;
+}
+
+.playerSide {
+	width: 30%;
+	height: 100%;
+}
+
+.opponentSide {
+	width: 60%;
+	height: 100%;
+}
+
+
+.playercell {
+	width: 15px;
+	height: 15px;
+	border: 1px solid black;
+}
+
+.opponentcell {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
